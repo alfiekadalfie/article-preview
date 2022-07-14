@@ -1,0 +1,58 @@
+.attribution { font-size: 11px; text-align: center;}
+.attribution a { color: hsl(228, 45%, 44%); }
+
+p{
+  font-family: Manrope, Arial;
+}
+
+.display{
+  display: none;
+}
+
+.container{
+  align-items: center;
+  display: flex;
+
+}
+
+.drawers{
+  width: 150px;
+}
+
+.header{
+  color: hsl(217, 19%, 35%);
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.caption{
+  color: hsl(212, 23%, 69%);
+  font-size: 13px;
+}
+
+.pfp{
+  width: 50px;
+  border-radius: 25px;
+}
+
+.author{
+  font-weight: bold;
+  color:hsl(217, 19%, 35%);
+}
+
+.date{
+  color:hsl(212, 23%, 69%);
+}
+
+.share-button{
+  border: none;
+  width: 35px;
+  height: 35px;
+  border-radius: 17.5px;
+  cursor: pointer;
+}
+
+.share-button:focus{
+  color: white;
+  background-color: hsl(217, 19%, 35%);
+}
