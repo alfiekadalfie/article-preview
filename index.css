@@ -1,7 +1,7 @@
 .attribution { font-size: 11px; text-align: center;}
 .attribution a { color: hsl(228, 45%, 44%); }
 
-p{
+div{
   font-family: Manrope, Arial;
 }
 
@@ -10,13 +10,29 @@ p{
 }
 
 .container{
-  align-items: center;
+  
+  border-width: 2px;
+  border-color: black;
   display: flex;
+  width: 600px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 
 }
 
+.second-part{
+  background-color: white;
+  border-color: black;
+  
+}
+
 .drawers{
-  width: 150px;
+  width: 250px;
+  height: 300px;
 }
 
 .header{
@@ -28,6 +44,11 @@ p{
 .caption{
   color: hsl(212, 23%, 69%);
   font-size: 13px;
+}
+
+.info{
+  display: flex;
+
 }
 
 .pfp{
