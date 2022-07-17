@@ -5,9 +5,22 @@ div{
   font-family: Manrope, Arial;
 }
 
+.sharing-icons{
+  padding: 0 10px 0 10px;
+  border-radius: 10px;
+  width: 200px;
+  position: absolute;
+  top: 160px;
+  right: -30px;
+  background-color: hsl(217, 19%, 35%);
+  display: flex;
+  justify-content: space-between;
+}
+
 .display{
   display: none;
 }
+
 
 .container{
   
@@ -82,9 +95,15 @@ div{
   border-radius: 17.5px;
   cursor: pointer;
   margin-left: 50px;
+  position: relative;
 }
 
 .share-button:focus{
   color: white;
   background-color: hsl(217, 19%, 35%);
+}
+
+.icon{
+  height: 20px;
+  margin-top: 18px;
 }
